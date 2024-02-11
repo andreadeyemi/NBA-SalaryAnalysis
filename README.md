@@ -5,7 +5,7 @@ This project delves into the salaries of NBA players for the 2022-23 season, com
 
 ## Data Source
 The dataset used for this analysis was obtained from Kaggle:
-[NBA Player Salaries (2022-23 Season)](https://www.kaggle.com/yourdatasetlink)
+[NBA Player Salaries (2022-23 Season)](https://www.kaggle.com/datasets/jamiewelsh2/nba-player-salaries-2022-23-season)
 
 ## Project Structure
 - `nba_salary_analysis.ipynb`: Jupyter Notebook containing the code for data analysis and visualization.
