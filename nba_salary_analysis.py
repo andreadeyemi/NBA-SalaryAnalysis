@@ -1,8 +1,14 @@
 import pandas as pd
 
-# Load the dataset
-dataset_path = "nba_2022-23_all_stats_with_salary.csv"
-data = pd.read_csv(dataset_path)
+# Load the datasets
+stats_dataset_path = "nba_2022-23_all_stats_with_salary.csv"
+salaries_dataset_path = "nba_salaries.csv"
 
-# Display the first few rows of the dataset
-print(data.head())
+stats_data = pd.read_csv(stats_dataset_path)
+salaries_data = pd.read_csv(salaries_dataset_path)
+
+# Display the first few rows of each dataset
+print("Statistics Dataset:")
+print(stats_data.head())
+print("\nSalaries Dataset:")
+print(salaries_data.head())
